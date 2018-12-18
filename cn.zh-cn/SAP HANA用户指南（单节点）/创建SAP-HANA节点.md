@@ -7,7 +7,7 @@ SAP HANA运行在HANA云服务器上。需要根据部署场景，创建一台�
 ## 操作步骤<a name="section28521827213651"></a>
 
 1.  登录管理控制台。
-2.  在管理控制台左上角单击![](figures/zh-cn_image_0113383875.jpg)图标，选择区域和项目。
+2.  在管理控制台左上角单击![](figures/icon-region-0.png)图标，选择区域和项目。
 3.  单击“服务列表 \> 计算 \> 弹性云服务器“，进入“弹性云服务器“管理界面。
 4.  在右侧界面中，单击“购买弹性云服务器“，系统弹出购买弹性云服务器的界面。
 5.  根据界面提示，输入参数信息，如[表1](#table15048540213231)所示。
@@ -57,7 +57,6 @@ SAP HANA运行在HANA云服务器上。需要根据部署场景，创建一台�
     </td>
     <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p4738665295657"><a name="p4738665295657"></a><a name="p4738665295657"></a>请根据<a href="网络信息规划.md">网络信息规划</a>确定网卡个数。</p>
     <p id="p6539770695657"><a name="p6539770695657"></a><a name="p6539770695657"></a>若需添加，可单击<span class="uicontrol" id="uicontrol5170844995657"><a name="uicontrol5170844995657"></a><a name="uicontrol5170844995657"></a>“增加一块网卡”</span>增加磁盘。</p>
-    <p id="p43255455213231"><a name="p43255455213231"></a><a name="p43255455213231"></a>。</p>
     <div class="note" id="note1047955195455"><a name="note1047955195455"></a><a name="note1047955195455"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul4699691895927"></a><a name="ul4699691895927"></a><ul id="ul4699691895927"><li>单节点部署（无HA）：无需添加扩展网卡。</li><li>单节点部署（HA）：添加扩展网卡后，执行去勾选“安全组不生效”。</li></ul>
     </div></div>
     </td>
@@ -94,7 +93,7 @@ SAP HANA运行在HANA云服务器上。需要根据部署场景，创建一台�
     </div></div>
     </td>
     </tr>
-    <tr id="row4479816792621"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p477289192621"><a name="p477289192621"></a><a name="p477289192621"></a>代理名称</p>
+    <tr id="row4479816792621"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p477289192621"><a name="p477289192621"></a><a name="p477289192621"></a>委托</p>
     </td>
     <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p8772953172935"><a name="p8772953172935"></a><a name="p8772953172935"></a>此参数需要单击<span class="parmname" id="parmname11847714172935"><a name="parmname11847714172935"></a><a name="parmname11847714172935"></a>“高级配置”</span>后面的<span class="uicontrol" id="uicontrol39520565172935"><a name="uicontrol39520565172935"></a><a name="uicontrol39520565172935"></a>“现在配置”</span>，展开页面后才能看到。</p>
     <p id="p3974612292815"><a name="p3974612292815"></a><a name="p3974612292815"></a>选择代理后可以使被委托方通过该代理获取临时访问公有云的凭据。</p>
