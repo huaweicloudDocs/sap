@@ -1,14 +1,14 @@
 # 单节点部署（HA）<a name="saphana_02_0010"></a>
 
-单节点部署（HA）方案如[图1](#fig57839126171047)和[图2](#fig893125064512)所示。
+单节点部署（HA）方案如[图1](#fig136441224171610)和[图2](#fig1264592471619)所示。
 
 >![](public_sys-resources/icon-note.gif) **说明：**   
 >在单节点部署（HA）场景下，支持手动进行主备节点的切换。也支持通过脚本自动进行主备节点的切换。  
 
-**图 1**  单节点同AZ部署（HA）方案<a name="fig57839126171047"></a>  
+**图 1**  单节点同AZ部署（HA）方案<a name="fig136441224171610"></a>  
 ![](figures/单节点同AZ部署（HA）方案.png "单节点同AZ部署（HA）方案")
 
-**图 2**  单节点跨AZ部署（HA）方案<a name="fig893125064512"></a>  
+**图 2**  单节点跨AZ部署（HA）方案<a name="fig1264592471619"></a>  
 ![](figures/单节点跨AZ部署（HA）方案.png "单节点跨AZ部署（HA）方案")
 
 各部分的组成说明与[单节点部署（无HA）](单节点部署（无HA）.md)一致，主要差别为：两个位于同一AZ或不同AZ的独立SAP HANA节点，统一接入到SAP HANA Studio上进行管理。两个SAP HANA节点通过System Replication进行数据同步来实现HA功能。
@@ -27,5 +27,5 @@
 
     仅在SAP HANA的操作系统为SUSE Linux Enterprise Server \(SLES\) 12 SP1 for SAP及以上时支持。
 
--   采用单节点跨AZ部署（HA）方案时，Backup卷必需使用SFS，并且需要规划三台云服务器，将磁盘配置iSCSI实现共享存储用作SBD卷，详情请参考[配置iSCSI（跨AZ部署HA）](配置iSCSI（跨AZ部署HA）.md)。
+-   采用单节点跨AZ部署（HA）方案时，为了实现Split Brain Detection（SBD）功能，在此场景下还需要规划三台云服务器，并配置iSCSI共享存储来用作SBD卷。详情请参考[配置iSCSI（跨AZ部署HA）](配置iSCSI（跨AZ部署HA）.md)。
 

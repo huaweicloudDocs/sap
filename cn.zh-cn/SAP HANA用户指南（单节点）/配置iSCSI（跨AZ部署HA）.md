@@ -137,7 +137,6 @@ EVS无法实现跨AZ磁盘共享，所以在跨AZ部署HA场景中，需要规�
 
         **targetcli /iscsi/**_iqn.2003-01.org.linux-iscsi.scsi-0003.x8664:sn.38370da481a5_**/tpg1/acls create** _iqn.1996-04.de.suse:01:f3cdb3b6ea6a_
 
-
 8.  关闭鉴权。
 
     **targetcli /iscsi/**_iqn.2003-01.org.linux-iscsi.scsi-0003.x8664:sn.38370da481a5_**/tpg1 set attribute authentication=0**
@@ -162,7 +161,7 @@ EVS无法实现跨AZ磁盘共享，所以在跨AZ部署HA场景中，需要规�
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >-   _10.0.3.250_为服务端IP地址，3260为iSCSI的默认端口。  
     >-   需要挂载三台服务端的iSCSI盘。  
-    >-   可以通过**fdisk –l**命令查看到新增的磁盘。  
+    >-   可以通过**fdisk -l**命令查看到新增的磁盘。  
 
 
 1.  <a name="li63245585104441"></a>设置iSCSI开机自动挂载。

@@ -4,7 +4,7 @@
 
 >![](public_sys-resources/icon-note.gif) **说明：**   
 >跨AZ/跨Region容灾场景中需要配置Multitier System Replication，在保证HA节点间的SR配置成功后，可进行Multitier System Replication的配置。  
->配置方案：HA备节点设置为Primary节点，DR节点设置为Secondary节点，与HA备节点进行数据同步。其中Multitier System Replication的配置模式为async。方案详情请参见[《SAP HANA高可用及灾备指南》](https://support.huaweicloud.com/hag-saphana/saphana_09_0008.html)。  
+>配置方案：HA备节点设置为Primary节点，DR节点设置为Secondary节点，与HA备节点进行数据同步。其中Multitier System Replication的配置模式为async。方案详情请参见[《SAP高可用及灾备指南》](https://support.huaweicloud.com/hag-sap/sap_10_0001.html)。  
 
 ## 前提条件<a name="section47712019205457"></a>
 
@@ -38,7 +38,6 @@
         例如，主节点命名为“hana001“，则命令行如下：
 
         **hdbnsutil -sr\_enable --name=hana001**
-
 
 2.  配置备节点
     1.  通过SSH跳转，登录另外一台SAP HANA节点。
@@ -77,7 +76,6 @@
     5.  启动SAP HANA数据库。
 
         **HDB start**
-
 
 3.  查看SAP HANA系统的System Replication状态。
     1.  在主节点的命令行界面，管理员模式下，执行以下命令：

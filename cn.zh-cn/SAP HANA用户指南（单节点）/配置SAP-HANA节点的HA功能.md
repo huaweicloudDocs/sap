@@ -33,15 +33,15 @@
     1.  使用PuTTY软件，以“root“帐号和密钥文件（“.ppk“文件）为鉴权方式，登录绑定了弹性IP的NAT Server，并通过SSH协议，跳转到待作为主节点的SAP HANA节点。
     2.  下载脚本和配置文件。
 
-        **wget https://obs-sap.obs.myhwclouds.com/hana/cfgandscript/ha\_auto\_script.zip -P /hana/shared**
+        登录到对应的区域的地址下载，具体的地址请参见[软件与工具](软件与工具.md)，此处以“华东-上海二“为例：
 
+        **wget https://obs-sap.obs.myhwclouds.com/ha\_auto\_script/ha\_auto\_script.zip -P /hana/shared**
 
     1.  解压文件
 
         **cd /hana/shared**
 
         **unzip  **ha\_auto\_script**.zip**
-
 
 4.  修改配置文件。
 
@@ -80,7 +80,7 @@
     >此脚本支持配置双心跳网络平面功能，在配置此功能时需要将业务/客户端平面IP地址分别添加到脚本中的“masterHeartbeatIP2“和“slaveHeartbeatIP2“参数后。  
     >跨AZ场景中，需要将SBDDevice设置为三台云服务器上的SBD盘符。例如：SBDDevice=/dev/sbd1,/dev/sbd2,/dev/sbd3。  
 
-5.  检查配置文件填写是否符合要求。
+5.  给脚本赋予可执行权限。
 
     **cd  **ha\_auto\_script****
 
@@ -103,7 +103,7 @@
     >    4 启动备节点数据库，然后退出管理员模式。  
     >    **HDB start**  
     >    **exit**  
-    >    5 启动HAE服务。  
+    >    5 在主备节点分别执行以下命令来启动HAE服务。  
     >    **systemctl start pacemaker**  
     >    6 清理原主节点（即当前备节点）上的资源。  
     >    “rsc\_SAPHana\_SLE\_HDB00“为资源名称举例，可通过**crm\_mon - r1**查询获取，参数“primary“配置为当前备节点的主机名。  

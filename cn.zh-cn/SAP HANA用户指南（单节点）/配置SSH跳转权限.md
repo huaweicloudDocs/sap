@@ -4,7 +4,7 @@
 
 ## 操作步骤<a name="section11956953142555"></a>
 
-1.  上传密钥文件到NAT Server。
+1.  上传密钥文件到NAT Server，本示例通过WinSCP软件上传密钥文件到NAT Server，您也可以使用其他工具上传。
     1.  在本地PC上，生成登录NAT Server的密钥文件。
 
         在创建NAT Server时，指定了NAT Server的证书密钥文件（“.pem“文件）。
@@ -19,14 +19,13 @@
     4.  使用PuTTY软件，以“root“帐号和密钥文件（“.ppk“文件）为鉴权方式，登录NAT Server。
     5.  将证书私钥文件（.pem文件）复制到“/root/.ssh“目录，并改名为“id\_rsa“。
 
-        假设原来的私钥名称为“private.pem“
+        假设原来的私钥名称为“private.pem“。
 
         **cp /usr/private.pem /root/.ssh/id\_rsa**
 
         **cd /root/.ssh/**
 
         **chmod 600 id\_rsa**
-
 
 2.  将本机上的私钥和“authorized\_keys“文件，通过业务/客户端平面IP地址，分发给除SAP HANA Studio之外的所有服务器。
 

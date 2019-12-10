@@ -20,12 +20,21 @@
         -   选择“DOWNLOADS“
 
     2.  在“DOWNLOADS“窗口中，找到要下载的版本并将下载到本地硬盘。
-    3.  将获取的安装包传至待安装SAP HANA软件的服务器的**/hana/shared**目录下并解压。
+    3.  将获取的安装包传至待安装SAP HANA软件的服务器的**/hana/shared**目录下并解压。例如安装文件为
+
+        _“51052383\_part1.exe“_。
+
+        **cd /hana/shared**
+
+        **unrar x** _51052383\_part1.exe_
+
     4.  进入到安装文件所在的目录。
 
-        例如，安装文件在“/DATA\_UNITS/HDB\_SERVER\_LINUX\_X86\_64“下
+        例如，安装文件在“/DATA\_UNITS/HDB\_SERVER\_LINUX\_X86\_64“下。
 
-        **cd /DATA\_UNITS/HDB\_SERVER\_LINUX\_X86\_64**
+        **cd** _51052383_
+
+        **cd DATA\_UNITS/HDB\_SERVER\_LINUX\_X86\_64**
 
     5.  增加文件夹的可执行权限。
 
@@ -42,9 +51,10 @@
         
           Index | System             | Database Properties
           ------------------------------------------------
-          1     | Install new system |
-                |                    |
-          2     | Exit (do nothing)  |
+          1     | Install new system  |
+                |      
+          2     | Extract components  |
+          3     | Exit (do nothing)   |
         
         Enter selected system index [2]: 
         ```
@@ -187,7 +197,6 @@
 
         安装完成后，系统提示“Installation done“。
 
-
 2.  检查安装结果。
     1.  切换到“/hana/shared/$SID/HDB00/“目录。
 
@@ -212,7 +221,6 @@
         **图 1**  SAP HANA版本查询<a name="fig33656113221256"></a>  
         ![](figures/SAP-HANA版本查询.jpg "SAP-HANA版本查询")
 
-
 3.  检查数据库进程是否运行正常。
     1.  执行命令，检查进程。
 
@@ -236,11 +244,9 @@
         hdbxsengine, HDB XSEngine, GREEN, Running, 2017 04 13 11:18:47, 4:45:28, 3182
         ```
 
-
     1.  退回到“root”用户模式。
 
         **exit**
-
 
 4.  检查数据库的启动与关闭。
     1.  切换到“/hana/shared/$SID/HDB00/“目录。

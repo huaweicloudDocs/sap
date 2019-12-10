@@ -16,7 +16,7 @@ SoH场景是指SAP HANA配合SAP公司的商务套件（如ERP、CRM等）使用
 <a name="table1521611461217"></a>
 <table><thead align="left"><tr id="row522918146123"><th class="cellrowborder" valign="top" width="27.51%" id="mcps1.2.5.1.1"><p id="p1823314143125"><a name="p1823314143125"></a><a name="p1823314143125"></a>分类</p>
 </th>
-<th class="cellrowborder" valign="top" width="15.78%" id="mcps1.2.5.1.2"><p id="p1023741491212"><a name="p1023741491212"></a><a name="p1023741491212"></a>vCPU</p>
+<th class="cellrowborder" valign="top" width="15.78%" id="mcps1.2.5.1.2"><p id="p1023741491212"><a name="p1023741491212"></a><a name="p1023741491212"></a>pCPUs</p>
 </th>
 <th class="cellrowborder" valign="top" width="28.83%" id="mcps1.2.5.1.3"><p id="p1523912142121"><a name="p1523912142121"></a><a name="p1523912142121"></a>内存 (GB)</p>
 </th>
@@ -48,7 +48,7 @@ SoH场景是指SAP HANA配合SAP公司的商务套件（如ERP、CRM等）使用
 <a name="table14480263125"></a>
 <table><thead align="left"><tr id="row5492763124"><th class="cellrowborder" valign="top" width="27.51%" id="mcps1.2.5.1.1"><p id="p1649510601220"><a name="p1649510601220"></a><a name="p1649510601220"></a>分类</p>
 </th>
-<th class="cellrowborder" valign="top" width="15.78%" id="mcps1.2.5.1.2"><p id="p44991561121"><a name="p44991561121"></a><a name="p44991561121"></a>vCPU</p>
+<th class="cellrowborder" valign="top" width="15.78%" id="mcps1.2.5.1.2"><p id="p44991561121"><a name="p44991561121"></a><a name="p44991561121"></a>pCPUs</p>
 </th>
 <th class="cellrowborder" valign="top" width="28.83%" id="mcps1.2.5.1.3"><p id="p450313651213"><a name="p450313651213"></a><a name="p450313651213"></a>内存 (GB)</p>
 </th>
@@ -73,7 +73,7 @@ SoH场景是指SAP HANA配合SAP公司的商务套件（如ERP、CRM等）使用
 <a name="table1598061213439"></a>
 <table><thead align="left"><tr id="row1011513174315"><th class="cellrowborder" valign="top" width="27.51%" id="mcps1.2.5.1.1"><p id="p31891310435"><a name="p31891310435"></a><a name="p31891310435"></a>分类</p>
 </th>
-<th class="cellrowborder" valign="top" width="15.78%" id="mcps1.2.5.1.2"><p id="p2241813124311"><a name="p2241813124311"></a><a name="p2241813124311"></a>vCPU</p>
+<th class="cellrowborder" valign="top" width="15.78%" id="mcps1.2.5.1.2"><p id="p2241813124311"><a name="p2241813124311"></a><a name="p2241813124311"></a>vCPUs</p>
 </th>
 <th class="cellrowborder" valign="top" width="28.83%" id="mcps1.2.5.1.3"><p id="p2311913194310"><a name="p2311913194310"></a><a name="p2311913194310"></a>内存 (GB)</p>
 </th>
@@ -112,7 +112,7 @@ SoH场景是指SAP HANA配合SAP公司的商务套件（如ERP、CRM等）使用
 <a name="table961494014280"></a>
 <table><thead align="left"><tr id="row862514020281"><th class="cellrowborder" valign="top" width="27.700000000000003%" id="mcps1.2.5.1.1"><p id="p313515359416"><a name="p313515359416"></a><a name="p313515359416"></a>分类</p>
 </th>
-<th class="cellrowborder" valign="top" width="15.559999999999999%" id="mcps1.2.5.1.2"><p id="p513512353418"><a name="p513512353418"></a><a name="p513512353418"></a>vCPU</p>
+<th class="cellrowborder" valign="top" width="15.559999999999999%" id="mcps1.2.5.1.2"><p id="p513512353418"><a name="p513512353418"></a><a name="p513512353418"></a>vCPUs</p>
 </th>
 <th class="cellrowborder" valign="top" width="28.860000000000003%" id="mcps1.2.5.1.3"><p id="p11135835164117"><a name="p11135835164117"></a><a name="p11135835164117"></a>内存 (GB)</p>
 </th>
@@ -120,7 +120,7 @@ SoH场景是指SAP HANA配合SAP公司的商务套件（如ERP、CRM等）使用
 </th>
 </tr>
 </thead>
-<tbody><tr id="row46541340102814"><td class="cellrowborder" rowspan="2" valign="top" width="27.700000000000003%" headers="mcps1.2.5.1.1 "><p id="p2015116358413"><a name="p2015116358413"></a><a name="p2015116358413"></a>超大内存型</p>
+<tbody><tr id="row46541340102814"><td class="cellrowborder" rowspan="5" valign="top" width="27.700000000000003%" headers="mcps1.2.5.1.1 "><p id="p2015116358413"><a name="p2015116358413"></a><a name="p2015116358413"></a>超大内存型</p>
 </td>
 <td class="cellrowborder" valign="top" width="15.559999999999999%" headers="mcps1.2.5.1.2 "><p id="p141681735134116"><a name="p141681735134116"></a><a name="p141681735134116"></a>28</p>
 </td>
@@ -134,6 +134,27 @@ SoH场景是指SAP HANA配合SAP公司的商务套件（如ERP、CRM等）使用
 <td class="cellrowborder" valign="top" headers="mcps1.2.5.1.2 "><p id="p11182143512418"><a name="p11182143512418"></a><a name="p11182143512418"></a>696</p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.2.5.1.3 "><p id="p91821135194120"><a name="p91821135194120"></a><a name="p91821135194120"></a>e3.14xlarge.12</p>
+</td>
+</tr>
+<tr id="row342020809334"><td class="cellrowborder" valign="top" headers="mcps1.2.5.1.1 "><p id="p619813356415"><a name="p619813356415"></a><a name="p619813356415"></a>104</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.2 "><p id="p16213635194114"><a name="p16213635194114"></a><a name="p16213635194114"></a>1466</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.3 "><p id="p132136358414"><a name="p132136358414"></a><a name="p132136358414"></a>e3.26xlarge.14</p>
+</td>
+</tr>
+<tr id="row38002319334"><td class="cellrowborder" valign="top" headers="mcps1.2.5.1.1 "><p id="p52297350416"><a name="p52297350416"></a><a name="p52297350416"></a>208</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.2 "><p id="p15229103515413"><a name="p15229103515413"></a><a name="p15229103515413"></a>2932</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.3 "><p id="p11229143564114"><a name="p11229143564114"></a><a name="p11229143564114"></a>e3.52xlarge.14</p>
+</td>
+</tr>
+<tr id="row18742011204216"><td class="cellrowborder" valign="top" headers="mcps1.2.5.1.1 "><p id="p147451111427"><a name="p147451111427"></a><a name="p147451111427"></a>208</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.2 "><p id="p19743111424"><a name="p19743111424"></a><a name="p19743111424"></a>4096</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.3 "><p id="p7741211194218"><a name="p7741211194218"></a><a name="p7741211194218"></a>e3.52xlarge.20</p>
 </td>
 </tr>
 </tbody>
@@ -150,7 +171,7 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 <a name="table55950414144826"></a>
 <table><thead align="left"><tr id="row48953446144826"><th class="cellrowborder" valign="top" width="27.51%" id="mcps1.2.5.1.1"><p id="p5806155144826"><a name="p5806155144826"></a><a name="p5806155144826"></a>分类</p>
 </th>
-<th class="cellrowborder" valign="top" width="15.78%" id="mcps1.2.5.1.2"><p id="p536524144826"><a name="p536524144826"></a><a name="p536524144826"></a>vCPU</p>
+<th class="cellrowborder" valign="top" width="15.78%" id="mcps1.2.5.1.2"><p id="p536524144826"><a name="p536524144826"></a><a name="p536524144826"></a>pCPUs</p>
 </th>
 <th class="cellrowborder" valign="top" width="28.83%" id="mcps1.2.5.1.3"><p id="p43458515144826"><a name="p43458515144826"></a><a name="p43458515144826"></a>内存 (GB)</p>
 </th>
@@ -182,7 +203,7 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 <a name="table76551938134417"></a>
 <table><thead align="left"><tr id="row14684193814447"><th class="cellrowborder" valign="top" width="27.51%" id="mcps1.2.5.1.1"><p id="p196925385444"><a name="p196925385444"></a><a name="p196925385444"></a>分类</p>
 </th>
-<th class="cellrowborder" valign="top" width="15.78%" id="mcps1.2.5.1.2"><p id="p1469917385443"><a name="p1469917385443"></a><a name="p1469917385443"></a>vCPU</p>
+<th class="cellrowborder" valign="top" width="15.78%" id="mcps1.2.5.1.2"><p id="p1469917385443"><a name="p1469917385443"></a><a name="p1469917385443"></a>vCPUs</p>
 </th>
 <th class="cellrowborder" valign="top" width="28.83%" id="mcps1.2.5.1.3"><p id="p18704103804411"><a name="p18704103804411"></a><a name="p18704103804411"></a>内存 (GB)</p>
 </th>
@@ -221,7 +242,7 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 <a name="table988319560"></a>
 <table><thead align="left"><tr id="saphana_02_0012_row862514020281"><th class="cellrowborder" valign="top" width="27.700000000000003%" id="mcps1.2.5.1.1"><p id="saphana_02_0012_p313515359416"><a name="saphana_02_0012_p313515359416"></a><a name="saphana_02_0012_p313515359416"></a>分类</p>
 </th>
-<th class="cellrowborder" valign="top" width="15.559999999999999%" id="mcps1.2.5.1.2"><p id="saphana_02_0012_p513512353418"><a name="saphana_02_0012_p513512353418"></a><a name="saphana_02_0012_p513512353418"></a>vCPU</p>
+<th class="cellrowborder" valign="top" width="15.559999999999999%" id="mcps1.2.5.1.2"><p id="saphana_02_0012_p513512353418"><a name="saphana_02_0012_p513512353418"></a><a name="saphana_02_0012_p513512353418"></a>vCPUs</p>
 </th>
 <th class="cellrowborder" valign="top" width="28.860000000000003%" id="mcps1.2.5.1.3"><p id="saphana_02_0012_p11135835164117"><a name="saphana_02_0012_p11135835164117"></a><a name="saphana_02_0012_p11135835164117"></a>内存 (GB)</p>
 </th>
@@ -229,7 +250,7 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 </th>
 </tr>
 </thead>
-<tbody><tr id="saphana_02_0012_row46541340102814"><td class="cellrowborder" rowspan="2" valign="top" width="27.700000000000003%" headers="mcps1.2.5.1.1 "><p id="saphana_02_0012_p2015116358413"><a name="saphana_02_0012_p2015116358413"></a><a name="saphana_02_0012_p2015116358413"></a>超大内存型</p>
+<tbody><tr id="saphana_02_0012_row46541340102814"><td class="cellrowborder" rowspan="5" valign="top" width="27.700000000000003%" headers="mcps1.2.5.1.1 "><p id="saphana_02_0012_p2015116358413"><a name="saphana_02_0012_p2015116358413"></a><a name="saphana_02_0012_p2015116358413"></a>超大内存型</p>
 </td>
 <td class="cellrowborder" valign="top" width="15.559999999999999%" headers="mcps1.2.5.1.2 "><p id="saphana_02_0012_p141681735134116"><a name="saphana_02_0012_p141681735134116"></a><a name="saphana_02_0012_p141681735134116"></a>28</p>
 </td>
@@ -245,13 +266,34 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 <td class="cellrowborder" valign="top" headers="mcps1.2.5.1.3 "><p id="saphana_02_0012_p91821135194120"><a name="saphana_02_0012_p91821135194120"></a><a name="saphana_02_0012_p91821135194120"></a>e3.14xlarge.12</p>
 </td>
 </tr>
+<tr id="saphana_02_0012_row342020809334"><td class="cellrowborder" valign="top" headers="mcps1.2.5.1.1 "><p id="saphana_02_0012_p619813356415"><a name="saphana_02_0012_p619813356415"></a><a name="saphana_02_0012_p619813356415"></a>104</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.2 "><p id="saphana_02_0012_p16213635194114"><a name="saphana_02_0012_p16213635194114"></a><a name="saphana_02_0012_p16213635194114"></a>1466</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.3 "><p id="saphana_02_0012_p132136358414"><a name="saphana_02_0012_p132136358414"></a><a name="saphana_02_0012_p132136358414"></a>e3.26xlarge.14</p>
+</td>
+</tr>
+<tr id="saphana_02_0012_row38002319334"><td class="cellrowborder" valign="top" headers="mcps1.2.5.1.1 "><p id="saphana_02_0012_p52297350416"><a name="saphana_02_0012_p52297350416"></a><a name="saphana_02_0012_p52297350416"></a>208</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.2 "><p id="saphana_02_0012_p15229103515413"><a name="saphana_02_0012_p15229103515413"></a><a name="saphana_02_0012_p15229103515413"></a>2932</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.3 "><p id="saphana_02_0012_p11229143564114"><a name="saphana_02_0012_p11229143564114"></a><a name="saphana_02_0012_p11229143564114"></a>e3.52xlarge.14</p>
+</td>
+</tr>
+<tr id="saphana_02_0012_row18742011204216"><td class="cellrowborder" valign="top" headers="mcps1.2.5.1.1 "><p id="saphana_02_0012_p147451111427"><a name="saphana_02_0012_p147451111427"></a><a name="saphana_02_0012_p147451111427"></a>208</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.2 "><p id="saphana_02_0012_p19743111424"><a name="saphana_02_0012_p19743111424"></a><a name="saphana_02_0012_p19743111424"></a>4096</p>
+</td>
+<td class="cellrowborder" valign="top" headers="mcps1.2.5.1.3 "><p id="saphana_02_0012_p7741211194218"><a name="saphana_02_0012_p7741211194218"></a><a name="saphana_02_0012_p7741211194218"></a>e3.52xlarge.20</p>
+</td>
+</tr>
 </tbody>
 </table>
 
 ## 操作系统和磁盘要求<a name="section31573146194054"></a>
 
 >![](public_sys-resources/icon-note.gif) **说明：**   
->-   Log卷、Data卷、Shared卷、Backup卷均为SAP HANA要求提供的卷。  
+>-   Log卷、Data卷、Shared卷、Backup卷和/usr/sap卷均为SAP HANA要求提供的卷。  
 >-   共享盘为一种磁盘种类，可以绑定给多台云服务器使用，而非共享盘则为普通磁盘，只能绑定一台云服务器使用。  
 
 **表 8**  HANA云服务器操作系统要求（单节点）
@@ -265,14 +307,17 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 </thead>
 <tbody><tr id="row1672211892121"><td class="cellrowborder" valign="top" width="22.37%" headers="mcps1.2.3.1.1 "><p id="p1231430092121"><a name="p1231430092121"></a><a name="p1231430092121"></a>操作系统</p>
 </td>
-<td class="cellrowborder" valign="top" width="77.63%" headers="mcps1.2.3.1.2 "><p id="p20792500102136"><a name="p20792500102136"></a><a name="p20792500102136"></a>SUSE Linux Enterprise Server (SLES) 12 SP1 for SAP及以上</p>
+<td class="cellrowborder" valign="top" width="77.63%" headers="mcps1.2.3.1.2 "><p id="p4591460621519"><a name="p4591460621519"></a><a name="p4591460621519"></a>SUSE Linux Enterprise Server (SLES) 12 SP1 for SAP</p>
+<p id="p34214096134732"><a name="p34214096134732"></a><a name="p34214096134732"></a>SUSE Linux Enterprise Server (SLES) 12 SP2 for SAP</p>
+<p id="p6123161319488"><a name="p6123161319488"></a><a name="p6123161319488"></a>SUSE Linux Enterprise Server (SLES) 12 SP3 for SAP</p>
+<p id="p42401217183613"><a name="p42401217183613"></a><a name="p42401217183613"></a>SUSE Linux Enterprise Server (SLES) 15 for SAP</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 >![](public_sys-resources/icon-note.gif) **说明：**   
->在同AZ HA场景中。需要为一台SAP HANA节点创建一个EVS卷用作SBD，创建完之后再绑定给另外一台SAP HANA节点。  
+>在同AZ HA场景中，为防止脑裂，需要为一台SAP HANA节点创建一个EVS卷用作SBD卷，创建完之后再绑定给另外一台SAP HANA节点。  
 >在跨AZ HA场景中，无需为SAP HANA创建SBD卷，该场景下SBD卷的创建请参考[配置iSCSI（跨AZ部署HA）](配置iSCSI（跨AZ部署HA）.md)。  
 
 **表 9**  E1、E2型服务器磁盘格式要求（单节点）
@@ -351,6 +396,15 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 <td class="cellrowborder" valign="top" width="35%" headers="mcps1.2.5.1.4 "><p id="p460014061919"><a name="p460014061919"></a><a name="p460014061919"></a>50GB</p>
 </td>
 </tr>
+<tr id="row9221531182413"><td class="cellrowborder" valign="top" width="14.000000000000002%" headers="mcps1.2.5.1.1 "><p id="p1322173113248"><a name="p1322173113248"></a><a name="p1322173113248"></a>swap卷</p>
+</td>
+<td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.5.1.2 "><p id="p86986015255"><a name="p86986015255"></a><a name="p86986015255"></a><span class="parmvalue" id="parmvalue57021201258"><a name="parmvalue57021201258"></a><a name="parmvalue57021201258"></a>“超高IO(时延优化)”</span></p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p1670811062514"><a name="p1670811062514"></a><a name="p1670811062514"></a>非共享盘</p>
+</td>
+<td class="cellrowborder" valign="top" width="35%" headers="mcps1.2.5.1.4 "><p id="p571318018251"><a name="p571318018251"></a><a name="p571318018251"></a>10GB</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -382,7 +436,7 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 </td>
 <td class="cellrowborder" valign="top" width="20.002000200020003%" headers="mcps1.2.5.1.3 "><p id="p4133181419423"><a name="p4133181419423"></a><a name="p4133181419423"></a>非共享盘</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.99399939993999%" headers="mcps1.2.5.1.4 "><p id="p19420649161216"><a name="p19420649161216"></a><a name="p19420649161216"></a>请参考<a href="#saphana_02_0012__table19532115345717">表11</a></p>
+<td class="cellrowborder" valign="top" width="39.99399939993999%" headers="mcps1.2.5.1.4 "><p id="p19420649161216"><a name="p19420649161216"></a><a name="p19420649161216"></a>请参考<a href="#table19532115345717">表11</a></p>
 </td>
 </tr>
 <tr id="row320012151214"><td class="cellrowborder" valign="top" width="20.002000200020003%" headers="mcps1.2.5.1.1 "><p id="p62785100129"><a name="p62785100129"></a><a name="p62785100129"></a>Data卷</p>
@@ -391,7 +445,7 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 </td>
 <td class="cellrowborder" valign="top" width="20.002000200020003%" headers="mcps1.2.5.1.3 "><p id="p16811203212120"><a name="p16811203212120"></a><a name="p16811203212120"></a>非共享盘</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.99399939993999%" headers="mcps1.2.5.1.4 "><p id="p120014141212"><a name="p120014141212"></a><a name="p120014141212"></a>创建EVS卷利用LVM的功能做软分区处理分配Data卷，所需规格请参考<a href="#saphana_02_0012__table19532115345717">表11</a></p>
+<td class="cellrowborder" valign="top" width="39.99399939993999%" headers="mcps1.2.5.1.4 "><p id="p120014141212"><a name="p120014141212"></a><a name="p120014141212"></a>创建EVS卷利用LVM的功能做软分区处理分配Data卷，所需规格请参考<a href="#table19532115345717">表11</a></p>
 </td>
 </tr>
 <tr id="row3417194710474"><td class="cellrowborder" valign="top" width="20.002000200020003%" headers="mcps1.2.5.1.1 "><p id="p15424204724713"><a name="p15424204724713"></a><a name="p15424204724713"></a>Shared卷</p>
@@ -428,6 +482,15 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 <td class="cellrowborder" valign="top" width="20.002000200020003%" headers="mcps1.2.5.1.3 "><p id="p8415183517"><a name="p8415183517"></a><a name="p8415183517"></a>非共享盘</p>
 </td>
 <td class="cellrowborder" valign="top" width="39.99399939993999%" headers="mcps1.2.5.1.4 "><p id="p146118155"><a name="p146118155"></a><a name="p146118155"></a>50GB</p>
+</td>
+</tr>
+<tr id="row1074971512518"><td class="cellrowborder" valign="top" width="20.002000200020003%" headers="mcps1.2.5.1.1 "><p id="p127501915132517"><a name="p127501915132517"></a><a name="p127501915132517"></a>swap卷</p>
+</td>
+<td class="cellrowborder" valign="top" width="20.002000200020003%" headers="mcps1.2.5.1.2 "><p id="p14976143582518"><a name="p14976143582518"></a><a name="p14976143582518"></a><span class="parmvalue" id="parmvalue2980153542515"><a name="parmvalue2980153542515"></a><a name="parmvalue2980153542515"></a>“高I/O”</span></p>
+</td>
+<td class="cellrowborder" valign="top" width="20.002000200020003%" headers="mcps1.2.5.1.3 "><p id="p498653517258"><a name="p498653517258"></a><a name="p498653517258"></a>非共享盘</p>
+</td>
+<td class="cellrowborder" valign="top" width="39.99399939993999%" headers="mcps1.2.5.1.4 "><p id="p1899733515256"><a name="p1899733515256"></a><a name="p1899733515256"></a>10GB</p>
 </td>
 </tr>
 </tbody>
@@ -496,7 +559,7 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p240204664214"><a name="p240204664214"></a><a name="p240204664214"></a>非共享盘</p>
 </td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><p id="p1754834244411"><a name="p1754834244411"></a><a name="p1754834244411"></a>请参考<a href="#saphana_02_0012__table15747103341">表13</a></p>
+<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><p id="p1754834244411"><a name="p1754834244411"></a><a name="p1754834244411"></a>请参考<a href="#table15747103341">表13</a></p>
 </td>
 </tr>
 <tr id="row966332119380"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p1266310216384"><a name="p1266310216384"></a><a name="p1266310216384"></a>Data卷</p>
@@ -505,7 +568,7 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p163285012421"><a name="p163285012421"></a><a name="p163285012421"></a>非共享盘</p>
 </td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><p id="p18187940104310"><a name="p18187940104310"></a><a name="p18187940104310"></a>创建EVS卷利用LVM的功能做软分区处理分配Data卷，所需规格请参考<a href="#saphana_02_0012__table15747103341">表13</a></p>
+<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><p id="p18187940104310"><a name="p18187940104310"></a><a name="p18187940104310"></a>创建EVS卷利用LVM的功能做软分区处理分配Data卷，所需规格请参考<a href="#table15747103341">表13</a></p>
 </td>
 </tr>
 <tr id="row923352513620"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p5237142517618"><a name="p5237142517618"></a><a name="p5237142517618"></a>Shared卷</p>
@@ -519,7 +582,7 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 </tr>
 <tr id="row172529252615"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p3255142511617"><a name="p3255142511617"></a><a name="p3255142511617"></a>Backup卷</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p82597258612"><a name="p82597258612"></a><a name="p82597258612"></a>SFS</p>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p51222045401"><a name="p51222045401"></a><a name="p51222045401"></a>SFS</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p19262925164"><a name="p19262925164"></a><a name="p19262925164"></a>-</p>
 </td>
@@ -542,6 +605,15 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p73051325364"><a name="p73051325364"></a><a name="p73051325364"></a>非共享盘</p>
 </td>
 <td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><p id="p19309192516611"><a name="p19309192516611"></a><a name="p19309192516611"></a>100GB</p>
+</td>
+</tr>
+<tr id="row13477749192513"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.1 "><p id="p162663172619"><a name="p162663172619"></a><a name="p162663172619"></a>swap卷</p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p15633333261"><a name="p15633333261"></a><a name="p15633333261"></a><span class="parmvalue" id="parmvalue156371318268"><a name="parmvalue156371318268"></a><a name="parmvalue156371318268"></a>“高I/O”</span></p>
+</td>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p66429332619"><a name="p66429332619"></a><a name="p66429332619"></a>非共享盘</p>
+</td>
+<td class="cellrowborder" valign="top" width="40%" headers="mcps1.2.5.1.4 "><p id="p1665013352614"><a name="p1665013352614"></a><a name="p1665013352614"></a>10GB</p>
 </td>
 </tr>
 </tbody>
@@ -570,6 +642,27 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.2 "><p id="p29821656530"><a name="p29821656530"></a><a name="p29821656530"></a>512GB</p>
 </td>
 <td class="cellrowborder" valign="top" width="37%" headers="mcps1.2.4.1.3 "><p id="p18843140193417"><a name="p18843140193417"></a><a name="p18843140193417"></a>推荐2*450GB的EVS卷</p>
+</td>
+</tr>
+<tr id="row370012439373"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.2.4.1.1 "><p id="p374429679373"><a name="p374429679373"></a><a name="p374429679373"></a>e3.26xlarge.14</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.2 "><p id="p1098213515319"><a name="p1098213515319"></a><a name="p1098213515319"></a>512GB</p>
+</td>
+<td class="cellrowborder" valign="top" width="37%" headers="mcps1.2.4.1.3 "><p id="p497246959373"><a name="p497246959373"></a><a name="p497246959373"></a>推荐3*600GB的EVS卷</p>
+</td>
+</tr>
+<tr id="row115677899373"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.2.4.1.1 "><p id="p275411299373"><a name="p275411299373"></a><a name="p275411299373"></a>e3.52xlarge.14</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.2 "><p id="p1698245135318"><a name="p1698245135318"></a><a name="p1698245135318"></a>512GB</p>
+</td>
+<td class="cellrowborder" valign="top" width="37%" headers="mcps1.2.4.1.3 "><p id="p119331399373"><a name="p119331399373"></a><a name="p119331399373"></a>推荐5*750GB的EVS卷</p>
+</td>
+</tr>
+<tr id="row4878433145911"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.2.4.1.1 "><p id="p1130113439593"><a name="p1130113439593"></a><a name="p1130113439593"></a>e3.52xlarge.20</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.2 "><p id="p29215524119"><a name="p29215524119"></a><a name="p29215524119"></a>512GB</p>
+</td>
+<td class="cellrowborder" valign="top" width="37%" headers="mcps1.2.4.1.3 "><p id="p62353116124"><a name="p62353116124"></a><a name="p62353116124"></a>推荐5*950GB的EVS卷</p>
 </td>
 </tr>
 </tbody>

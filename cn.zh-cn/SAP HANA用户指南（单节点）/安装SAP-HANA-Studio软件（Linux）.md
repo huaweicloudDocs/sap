@@ -15,7 +15,7 @@ SAP HANA Studio提供对SAP HANA的管理功能。完成SAP  HANA节点的部署
 1.  以“root“帐号和密钥文件登录绑定了弹性IP的SAP HANA Studio。
 2.  将从SAP官网获取的安装包传至待安装SAP HANA Studio的云服务器的**/hana/shared**目录下并解压。
 
-    进入到安装文件所在的目录。例如，安装文件在“/DATA\_UNITS/HDB\_STUDIO\_LINUX\_X86\_64“下
+    进入到安装文件所在的目录。例如，安装文件在“/DATA\_UNITS/HDB\_STUDIO\_LINUX\_X86\_64“下。
 
     **cd /DATA\_UNITS/HDB\_STUDIO\_LINUX\_X86\_64**
 

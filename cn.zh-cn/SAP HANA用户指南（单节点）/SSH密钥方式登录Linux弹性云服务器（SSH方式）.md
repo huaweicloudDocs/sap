@@ -15,7 +15,7 @@
 
 1.  在下面路径中下载PuTTY和PuTTYgen。
 
-    http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+    http://www.chiark.greenend.org.uk/\~sgtatham/putty/download.html
 
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >PuTTYgen是密钥生成器，用于创建ssh密钥，生成一对公钥和私钥供PuTTY使用。  

@@ -5,98 +5,179 @@
 ## 操作步骤<a name="section854176102817"></a>
 
 1.  登录管理控制台。
-2.  在管理控制台左上角单击![](figures/icon-region-0.png)图标，选择区域和项目。
+2.  在管理控制台左上角单击![](figures/icon-region.png)图标，选择区域和项目。
 3.  单击“服务列表 \> 计算 \> 弹性云服务器“，进入“弹性云服务器“管理界面。
 4.  在右侧界面中，单击“购买弹性云服务器“，系统弹出创建弹性云服务器的界面。
-5.  根据界面提示输入参数信息，如[表1](#table170336122514)所示。
+5.  根据界面提示，配置NAT Server基础信息，如[表1](#table15048540213231)所示。
 
-    **表 1**  弹性云服务器参数说明
+    **表 1**  NAT Server基础配置
 
-    <a name="table170336122514"></a>
-    <table><thead align="left"><tr id="row2517923322514"><th class="cellrowborder" valign="top" width="20%" id="mcps1.2.3.1.1"><p id="p5662853922514"><a name="p5662853922514"></a><a name="p5662853922514"></a>参数</p>
+    <a name="table15048540213231"></a>
+    <table><thead align="left"><tr id="row36609903213231"><th class="cellrowborder" valign="top" width="20%" id="mcps1.2.3.1.1"><p id="p11338703213231"><a name="p11338703213231"></a><a name="p11338703213231"></a>参数</p>
     </th>
-    <th class="cellrowborder" valign="top" width="80%" id="mcps1.2.3.1.2"><p id="p2350898022514"><a name="p2350898022514"></a><a name="p2350898022514"></a>说明</p>
+    <th class="cellrowborder" valign="top" width="80%" id="mcps1.2.3.1.2"><p id="p46019721213231"><a name="p46019721213231"></a><a name="p46019721213231"></a>说明</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row6645201511515"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p5497520211536"><a name="p5497520211536"></a><a name="p5497520211536"></a>计费模式</p>
+    <tbody><tr id="row49191815173125"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p56583456173136"><a name="p56583456173136"></a><a name="p56583456173136"></a>计费模式</p>
     </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p2380639311536"><a name="p2380639311536"></a><a name="p2380639311536"></a>根据实际选择，建议选择“包年/包月”。</p>
-    </td>
-    </tr>
-    <tr id="row560038322514"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p62582762172350"><a name="p62582762172350"></a><a name="p62582762172350"></a>可用区</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p6012028622514"><a name="p6012028622514"></a><a name="p6012028622514"></a>指定云服务器所在的可用分区，请根据实际需要选择。</p>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p19857206173136"><a name="p19857206173136"></a><a name="p19857206173136"></a>按需求选择计费方式，推荐使用“包年/包月”。</p>
     </td>
     </tr>
-    <tr id="row1106986222514"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p2391227617246"><a name="p2391227617246"></a><a name="p2391227617246"></a>规格</p>
+    <tr id="row23050208213231"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p43115582213231"><a name="p43115582213231"></a><a name="p43115582213231"></a>可用区</p>
     </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p5730347522514"><a name="p5730347522514"></a><a name="p5730347522514"></a>在“全部系列”下选择“s1.medium”（1 vCPUs，4GB内存）或更大的规格。</p>
-    </td>
-    </tr>
-    <tr id="row6513603522514"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p37379988172410"><a name="p37379988172410"></a><a name="p37379988172410"></a>镜像</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p34745730195316"><a name="p34745730195316"></a><a name="p34745730195316"></a>选择<span class="parmvalue" id="parmvalue45189879195316"><a name="parmvalue45189879195316"></a><a name="parmvalue45189879195316"></a>“公共镜像”</span>，并根据需要选择具体的镜像。</p>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p2701244213231"><a name="p2701244213231"></a><a name="p2701244213231"></a>指定云服务器所在的可用分区，请根据实际需要选择。</p>
     </td>
     </tr>
-    <tr id="row6670880022514"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p3433085172415"><a name="p3433085172415"></a><a name="p3433085172415"></a>磁盘</p>
+    <tr id="row45743662213231"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p6125286213231"><a name="p6125286213231"></a><a name="p6125286213231"></a>规格</p>
     </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p828010522514"><a name="p828010522514"></a><a name="p828010522514"></a>系统盘，40GB。</p>
-    <p id="p950415804812"><a name="p950415804812"></a><a name="p950415804812"></a>磁盘具体要求请参见<a href="其他节点规划.md">其他节点规划</a>的说明。</p>
-    </td>
-    </tr>
-    <tr id="row5759543722514"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p4856704810403"><a name="p4856704810403"></a><a name="p4856704810403"></a>虚拟私有云</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p5953487322514"><a name="p5953487322514"></a><a name="p5953487322514"></a>请使用<a href="申请子网并设置安全组.md">申请子网并设置安全组</a>中对应的虚拟私有云。</p>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p1371716483249"><a name="p1371716483249"></a><a name="p1371716483249"></a>在“全部系列”下选择“s1.medium”（1 vCPUs，4GB内存）或更大的规格。</p>
     </td>
     </tr>
-    <tr id="row676000810533"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p1832942310539"><a name="p1832942310539"></a><a name="p1832942310539"></a>安全组</p>
+    <tr id="row35173131213231"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p27861758213231"><a name="p27861758213231"></a><a name="p27861758213231"></a>镜像</p>
     </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p828825610539"><a name="p828825610539"></a><a name="p828825610539"></a>请使用<a href="申请子网并设置安全组.md">申请子网并设置安全组</a>中对应的安全组。</p>
-    </td>
-    </tr>
-    <tr id="row2270448322514"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p3035152172423"><a name="p3035152172423"></a><a name="p3035152172423"></a>网卡</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p6076113022514"><a name="p6076113022514"></a><a name="p6076113022514"></a>根据<a href="网络信息规划.md">网络信息规划</a>选择相应的网卡。</p>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p44344974213231"><a name="p44344974213231"></a><a name="p44344974213231"></a>选择<span class="parmvalue" id="parmvalue1494812013419"><a name="parmvalue1494812013419"></a><a name="parmvalue1494812013419"></a>“公共镜像”</span>，并根据需要选择具体的镜像。</p>
     </td>
     </tr>
-    <tr id="row5387068122514"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p44704893172428"><a name="p44704893172428"></a><a name="p44704893172428"></a>弹性公网IP</p>
+    <tr id="row50316870213231"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p48122725213231"><a name="p48122725213231"></a><a name="p48122725213231"></a>系统盘</p>
     </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p905975195357"><a name="p905975195357"></a><a name="p905975195357"></a>根据实际需要选择。</p>
-    </td>
-    </tr>
-    <tr id="row4974424222514"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p53040779104122"><a name="p53040779104122"></a><a name="p53040779104122"></a>带宽</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p1304169322514"><a name="p1304169322514"></a><a name="p1304169322514"></a>仅在绑定弹性IP后，需要配置。用于指定弹性IP对应的通信通道的网络带宽，请根据需要选择，例如30M。</p>
-    <p id="p26858828195421"><a name="p26858828195421"></a><a name="p26858828195421"></a>仅在<span class="parmname" id="parmname26103566195421"><a name="parmname26103566195421"></a><a name="parmname26103566195421"></a>“弹性IP”</span>参数选择为<span class="parmvalue" id="parmvalue36057227195421"><a name="parmvalue36057227195421"></a><a name="parmvalue36057227195421"></a>“现在购买”</span>时，需要指定，请根据实际需要指定。</p>
-    </td>
-    </tr>
-    <tr id="row2832308422514"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p58467902104710"><a name="p58467902104710"></a><a name="p58467902104710"></a>密钥对</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p408090217431"><a name="p408090217431"></a><a name="p408090217431"></a>仅在<span class="parmname" id="parmname2507893617459"><a name="parmname2507893617459"></a><a name="parmname2507893617459"></a>“登录方式”</span>为<span class="parmvalue" id="parmvalue28317711753"><a name="parmvalue28317711753"></a><a name="parmvalue28317711753"></a>“密钥对”</span>时生效。</p>
-    <p id="p24969197191558"><a name="p24969197191558"></a><a name="p24969197191558"></a>指使用SSH密钥证书作为弹性云服务器的鉴权方式。请先单击<span class="uicontrol" id="uicontrol9239073191558"><a name="uicontrol9239073191558"></a><a name="uicontrol9239073191558"></a>“查看密钥对”</span>，在<span class="wintitle" id="wintitle10167478191558"><a name="wintitle10167478191558"></a><a name="wintitle10167478191558"></a>“密钥对”</span>页面创建密钥。</p>
-    <p id="p5992276622514"><a name="p5992276622514"></a><a name="p5992276622514"></a>需要指出的是，SAP HANA、SAP HANA Studio和NAT Server所使用的云服务器，必须指定同一份密钥，否则会导致后续SAP HANA无法正常安装。</p>
-    <div class="note" id="note4840292822514"><a name="note4840292822514"></a><a name="note4840292822514"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p243398822514"><a name="p243398822514"></a><a name="p243398822514"></a>如果您直接从下拉列表中选择已有的SSH密钥证书，请确保您已在本地获取该文件，否则，将影响您正常登录弹性云服务器。</p>
-    <p id="p2190589622514"><a name="p2190589622514"></a><a name="p2190589622514"></a>如果您在SSH密钥页面创建密钥，则其创建方法为：单击<span class="uicontrol" id="uicontrol61495284192318"><a name="uicontrol61495284192318"></a><a name="uicontrol61495284192318"></a>“查看密钥对”</span>后，在弹出的界面中单击<span class="uicontrol" id="uicontrol1341147192318"><a name="uicontrol1341147192318"></a><a name="uicontrol1341147192318"></a>“创建密钥对”</span>，输入密钥名称后单击<span class="uicontrol" id="uicontrol38172364192318"><a name="uicontrol38172364192318"></a><a name="uicontrol38172364192318"></a>“确定”</span>，并在系统弹出的提示框中单击<span class="uicontrol" id="uicontrol44584082192318"><a name="uicontrol44584082192318"></a><a name="uicontrol44584082192318"></a>“确定”</span>，然后根据提示信息查看并保存私钥即可。</p>
-    </div></div>
-    </td>
-    </tr>
-    <tr id="row191542011057"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p441574710510"><a name="p441574710510"></a><a name="p441574710510"></a>云服务器名称</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p2213121710510"><a name="p2213121710510"></a><a name="p2213121710510"></a>云服务器名称。</p>
-    </td>
-    </tr>
-    <tr id="row350046622514"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p1265312622514"><a name="p1265312622514"></a><a name="p1265312622514"></a>数量</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p1827031422514"><a name="p1827031422514"></a><a name="p1827031422514"></a>1</p>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p1173553416413"><a name="p1173553416413"></a><a name="p1173553416413"></a>系统盘，40GB。</p>
+    <p id="p147351134145"><a name="p147351134145"></a><a name="p147351134145"></a>磁盘具体要求请参见<a href="其他节点规划.md">其他节点规划</a>的说明。</p>
     </td>
     </tr>
     </tbody>
     </table>
 
-6.  单击“立即购买“，在弹出的界面中，勾选“我已经阅读并同意《华为镜像免责声明》”，单击“去支付”。
-7.  单击“确认付款“。
-8.  系统返回“弹性云服务器“管理界面，可在右侧界面的“任务状态“后面，查看当前创建任务的状态。
+6.  单击“下一步：网络配置”。
+7.  根据界面提示，配置NAT Server云服务器网络信息，如[表2](#table16563101213313)所示。
+
+    **表 2**  NAT Server网络配置
+
+    <a name="table16563101213313"></a>
+    <table><thead align="left"><tr id="row11563111223120"><th class="cellrowborder" valign="top" width="20%" id="mcps1.2.3.1.1"><p id="p1756341273112"><a name="p1756341273112"></a><a name="p1756341273112"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="80%" id="mcps1.2.3.1.2"><p id="p1563112103116"><a name="p1563112103116"></a><a name="p1563112103116"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row9564101214317"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p1564612173112"><a name="p1564612173112"></a><a name="p1564612173112"></a>网络</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p18564312103110"><a name="p18564312103110"></a><a name="p18564312103110"></a>请使用<a href="创建VPC.md">创建VPC</a>和<a href="申请子网并设置安全组.md">申请子网并设置安全组</a>中对应的VPC、子网信息。</p>
+    </td>
+    </tr>
+    <tr id="row9564141219315"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p15641127313"><a name="p15641127313"></a><a name="p15641127313"></a>扩展网卡</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p256611321068"><a name="p256611321068"></a><a name="p256611321068"></a>根据<a href="网络信息规划.md">网络信息规划</a>选择相应的网卡。</p>
+    </td>
+    </tr>
+    <tr id="row856514125316"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p155651312153115"><a name="p155651312153115"></a><a name="p155651312153115"></a>安全组</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p85651122313"><a name="p85651122313"></a><a name="p85651122313"></a>请使用<a href="申请子网并设置安全组.md">申请子网并设置安全组</a>中对应的安全组。</p>
+    </td>
+    </tr>
+    <tr id="row13565151273110"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p1456551223119"><a name="p1456551223119"></a><a name="p1456551223119"></a>弹性公网IP</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p145233416816"><a name="p145233416816"></a><a name="p145233416816"></a>根据实际需要选择。</p>
+    </td>
+    </tr>
+    <tr id="row833162951014"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p8332182991010"><a name="p8332182991010"></a><a name="p8332182991010"></a>规格</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p1982661710261"><a name="p1982661710261"></a><a name="p1982661710261"></a>在<span class="uicontrol" id="uicontrol719744810268"><a name="uicontrol719744810268"></a><a name="uicontrol719744810268"></a>“弹性公网IP”</span>为<span class="uicontrol" id="uicontrol97868211275"><a name="uicontrol97868211275"></a><a name="uicontrol97868211275"></a>“现在配置”</span>时生效，您可根据实际需要选择。</p>
+    <a name="ul1012692919129"></a><a name="ul1012692919129"></a><ul id="ul1012692919129"><li>静态BGP中的网络结构发生变化，运营商无法在第一时间自动调整网络设置以保障用户的体验度。</li><li>全动态BGP可根据设定的寻路协议第一时间自动优化网络结构，以保持客户使用的网络持续稳定、高效。</li></ul>
+    </td>
+    </tr>
+    <tr id="row206491741101010"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p15649141111016"><a name="p15649141111016"></a><a name="p15649141111016"></a>宽带类型</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p14294498273"><a name="p14294498273"></a><a name="p14294498273"></a>在<span class="uicontrol" id="uicontrol349684718275"><a name="uicontrol349684718275"></a><a name="uicontrol349684718275"></a>“弹性公网IP”</span>为<span class="uicontrol" id="uicontrol5496347152711"><a name="uicontrol5496347152711"></a><a name="uicontrol5496347152711"></a>“现在配置”</span>时生效，您可根据实际需要选择。</p>
+    <a name="ul41128413122"></a><a name="ul41128413122"></a><ul id="ul41128413122"><li>独享带宽：一个带宽只能被一个弹性公网IP使用。</li><li>共享带宽：一个带宽中可以加入多个弹性公网IP，多个弹性公网IP共用一个带宽。</li></ul>
+    </td>
+    </tr>
+    <tr id="row68409442102"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p3840104412100"><a name="p3840104412100"></a><a name="p3840104412100"></a>计费方式</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p89011242816"><a name="p89011242816"></a><a name="p89011242816"></a>在<span class="uicontrol" id="uicontrol89011218288"><a name="uicontrol89011218288"></a><a name="uicontrol89011218288"></a>“弹性公网IP”</span>为<span class="uicontrol" id="uicontrol1590113213287"><a name="uicontrol1590113213287"></a><a name="uicontrol1590113213287"></a>“现在配置”</span>时生效，您可根据实际需要选择。</p>
+    <p id="p7416820138"><a name="p7416820138"></a><a name="p7416820138"></a>购买的弹性公网IP的带宽计费方式，包括以下两种，您可根据实际需要选择。</p>
+    <a name="ul1242168171311"></a><a name="ul1242168171311"></a><ul id="ul1242168171311"><li>按带宽计费：按照购买的带宽大小计费。</li><li>按流量计费：按照实际使用的流量来计费。</li></ul>
+    </td>
+    </tr>
+    <tr id="row1115514383108"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p0156113801018"><a name="p0156113801018"></a><a name="p0156113801018"></a>带宽</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p843813173289"><a name="p843813173289"></a><a name="p843813173289"></a>在<span class="uicontrol" id="uicontrol1043801742816"><a name="uicontrol1043801742816"></a><a name="uicontrol1043801742816"></a>“弹性公网IP”</span>为<span class="uicontrol" id="uicontrol16438131742819"><a name="uicontrol16438131742819"></a><a name="uicontrol16438131742819"></a>“现在配置”</span>时生效，您可根据实际需要选择。</p>
+    <p id="p91567386101"><a name="p91567386101"></a><a name="p91567386101"></a>带宽值您可根据实际需要选择。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+8.  单击“下一步：高级配置”。
+9.  根据界面提示，配置NAT Server云服务器高级信息，如[表3](#table17181316193420)所示。
+
+    **表 3**  NAT Server高级配置
+
+    <a name="table17181316193420"></a>
+    <table><thead align="left"><tr id="row1518111693415"><th class="cellrowborder" valign="top" width="20%" id="mcps1.2.3.1.1"><p id="p41811516163411"><a name="p41811516163411"></a><a name="p41811516163411"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="80%" id="mcps1.2.3.1.2"><p id="p618114164341"><a name="p618114164341"></a><a name="p618114164341"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row125915551599"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p14186616173411"><a name="p14186616173411"></a><a name="p14186616173411"></a>云服务器名称</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p17186101663413"><a name="p17186101663413"></a><a name="p17186101663413"></a>云服务器名称。</p>
+    <p id="p11186171683416"><a name="p11186171683416"></a><a name="p11186171683416"></a>关于主机名的长度和字符的更多信息，参见SAP Note 611361。</p>
+    </td>
+    </tr>
+    <tr id="row6531825193113"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p55319253315"><a name="p55319253315"></a><a name="p55319253315"></a>登录方式</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p165392593117"><a name="p165392593117"></a><a name="p165392593117"></a>选择<span class="uicontrol" id="uicontrol9631124543110"><a name="uicontrol9631124543110"></a><a name="uicontrol9631124543110"></a>“密钥对”</span>。</p>
+    </td>
+    </tr>
+    <tr id="row11182111616344"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p17182121610343"><a name="p17182121610343"></a><a name="p17182121610343"></a>密钥对</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p12183171643415"><a name="p12183171643415"></a><a name="p12183171643415"></a>仅在<span class="parmname" id="parmname14183121653415"><a name="parmname14183121653415"></a><a name="parmname14183121653415"></a>“登录方式”</span>为<span class="parmvalue" id="parmvalue5183181619343"><a name="parmvalue5183181619343"></a><a name="parmvalue5183181619343"></a>“密钥对”</span>时生效。</p>
+    <p id="p16183171612346"><a name="p16183171612346"></a><a name="p16183171612346"></a>指使用SSH密钥证书作为云服务器的鉴权方式。请先单击<span class="uicontrol" id="uicontrol518351643412"><a name="uicontrol518351643412"></a><a name="uicontrol518351643412"></a>“查看密钥对”</span>，在<span class="wintitle" id="wintitle41831916133413"><a name="wintitle41831916133413"></a><a name="wintitle41831916133413"></a>“密钥对”</span>页面创建密钥。</p>
+    <p id="p20183141616345"><a name="p20183141616345"></a><a name="p20183141616345"></a>需要指出的是，SAP HANA、SAP HANA Studio和NAT Server所使用的云服务器，必须指定同一份密钥，否则会导致后续SAP HANA无法正常安装。</p>
+    <div class="note" id="note1518391663420"><a name="note1518391663420"></a><a name="note1518391663420"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p19183141613419"><a name="p19183141613419"></a><a name="p19183141613419"></a>如果您直接从下拉列表中选择已有的SSH密钥证书，请确保您已在本地获取该文件，否则，将影响您正常登录HANA云服务器。</p>
+    <p id="p1418361633413"><a name="p1418361633413"></a><a name="p1418361633413"></a>若需要创建密钥，则其创建方法为：</p>
+    <p id="p1818351673410"><a name="p1818351673410"></a><a name="p1818351673410"></a>单击<span class="uicontrol" id="uicontrol1118314168349"><a name="uicontrol1118314168349"></a><a name="uicontrol1118314168349"></a>“查看密钥对”</span>后，在弹出的界面中单击<span class="uicontrol" id="uicontrol3183131616344"><a name="uicontrol3183131616344"></a><a name="uicontrol3183131616344"></a>“创建密钥对”</span>，输入密钥名称后单击<span class="uicontrol" id="uicontrol7183151617340"><a name="uicontrol7183151617340"></a><a name="uicontrol7183151617340"></a>“确定”</span>，并在系统弹出的提示框中单击<span class="uicontrol" id="uicontrol1183101612345"><a name="uicontrol1183101612345"></a><a name="uicontrol1183101612345"></a>“确定”</span>，然后根据提示信息查看并保存私钥即可。</p>
+    </div></div>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+10. 单击“下一步：确认订单”。
+11. 根据界面提示，确认NAT Server云服务器配置信息，如[表4](#table127431131614)所示。
+
+    **表 4**  NAT Server配置信息
+
+    <a name="table127431131614"></a>
+    <table><thead align="left"><tr id="row47441413767"><th class="cellrowborder" valign="top" width="20%" id="mcps1.2.3.1.1"><p id="p1674417130611"><a name="p1674417130611"></a><a name="p1674417130611"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="80%" id="mcps1.2.3.1.2"><p id="p1074411318614"><a name="p1074411318614"></a><a name="p1074411318614"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row774519138616"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p19745131314618"><a name="p19745131314618"></a><a name="p19745131314618"></a>企业项目</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p15745141317616"><a name="p15745141317616"></a><a name="p15745141317616"></a>选择已创建的企业项目名称，例如：SAP。</p>
+    </td>
+    </tr>
+    <tr id="row4917744597"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p75611059998"><a name="p75611059998"></a><a name="p75611059998"></a>购买时长</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p1556110591096"><a name="p1556110591096"></a><a name="p1556110591096"></a>根据实际需要选择购买时长。</p>
+    </td>
+    </tr>
+    <tr id="row07471113860"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.3.1.1 "><p id="p12561155913915"><a name="p12561155913915"></a><a name="p12561155913915"></a>购买数量</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="80%" headers="mcps1.2.3.1.2 "><p id="p75611597912"><a name="p75611597912"></a><a name="p75611597912"></a>根据实际填写。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+12. 勾选“我已经阅读并同意《华为镜像免责声明》”后，单击“去支付”。
+13. 单击“确认付款“。
+14. 系统返回“弹性云服务器“管理界面，可在右侧界面的“任务状态“后面，查看当前创建任务的状态。
 
     弹性云服务器创建完成后，在右侧界面的服务器列表中可查看到对应的服务器。
 

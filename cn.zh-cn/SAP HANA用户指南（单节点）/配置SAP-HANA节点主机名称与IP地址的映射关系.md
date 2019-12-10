@@ -20,7 +20,7 @@
 
     格式为：**IP-Address Full-Quallified-Hostname Short-Hostname**
 
-    >![](public_sys-resources/icon-notice.gif) **注意：**   
+    >![](public_sys-resources/icon-notice.gif) **须知：**   
     >在同一套SAP HANA系统中，要将所有SAP HANA节点的IP地址和主机名称的映射关系，写入到hosts文件中。  
 
     以两台SAP HANA节点HA部署，使用System Replication平面的IP地址为“10.0.4.2“～“10.0.4.3“为例。
