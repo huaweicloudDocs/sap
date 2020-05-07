@@ -29,13 +29,26 @@
     3.  单击“网卡“页签，在云服务器的业务/管理平面网卡后，单击“管理虚拟IP地址“，弹出“虚拟IP地址“界面。
     4.  单击“申请虚拟IP地址“分配规划的浮动IP地址，在分配好的浮动IP栏单击“绑定服务器“，绑定给所需的云服务器，重复执行绑定操作给其他云服务器。
 
-3.  下载脚本和配置文件。
-    1.  使用PuTTY软件，以“root“帐号和密钥文件（“.ppk“文件）为鉴权方式，登录绑定了弹性IP的NAT Server，并通过SSH协议，跳转到待作为主节点的SAP HANA节点。
-    2.  下载脚本和配置文件。
+3.  使用PuTTY软件，以“root“帐号和密钥文件（“.ppk“文件）为鉴权方式，登录绑定了弹性IP的NAT Server，并通过SSH协议，跳转到待作为主节点的SAP HANA节点。
+4.  执行以下命令，检查是否已安装了依赖包patterns-ha-ha\_sles和sap-suse-cluster-connector。
 
-        登录到对应的区域的地址下载，具体的地址请参见[软件与工具](软件与工具.md)，此处以“华东-上海二“为例：
+    **rpm -qa | grep** **patterns-ha-ha\_sles**
 
-        **wget https://obs-sap.obs.myhwclouds.com/ha\_auto\_script/ha\_auto\_script.zip -P /hana/shared**
+    **rpm -qa | grep** **sap-suse-cluster-connector**
+
+    -   已安装，请执行[5](#li35726976224449)。
+    -   未安装，请执行以下命令安装。
+
+        **zypper in  -y patterns-ha-ha\_sles**
+
+        **zypper in  -y** **sap-suse-cluster-connector**
+
+5.  <a name="li35726976224449"></a>下载脚本和配置文件。
+    1.  下载脚本和配置文件。
+
+        登录到对应的区域的地址下载，具体的地址请参见[软件与工具](软件与工具.md)，此处以“华北-北京四“为例：
+
+        **wget https://obs-sap-cn-north-4.obs.myhwclouds.com/ha\_auto\_script/ha\_auto\_script.zip -P /hana/shared**
 
     1.  解压文件
 
@@ -43,7 +56,7 @@
 
         **unzip  **ha\_auto\_script**.zip**
 
-4.  修改配置文件。
+6.  修改配置文件。
 
     **vi /hana/shared/**ha\_auto\_script**/hana\_ha.cfg**
 
@@ -80,13 +93,13 @@
     >此脚本支持配置双心跳网络平面功能，在配置此功能时需要将业务/客户端平面IP地址分别添加到脚本中的“masterHeartbeatIP2“和“slaveHeartbeatIP2“参数后。  
     >跨AZ场景中，需要将SBDDevice设置为三台云服务器上的SBD盘符。例如：SBDDevice=/dev/sbd1,/dev/sbd2,/dev/sbd3。  
 
-5.  给脚本赋予可执行权限。
+7.  给脚本赋予可执行权限。
 
     **cd  **ha\_auto\_script****
 
     **chmod +x hana\_auto\_ha.sh**
 
-6.  执行脚本。
+8.  执行脚本。
 
     **sh hana\_auto\_ha.sh**
 
@@ -127,8 +140,8 @@
     
     ```
 
-7.  在SAP HANA Studio上重新接入SAP HANA。
-8.  在SAP HANA Studio上，将已接入的两个SAP HANA节点删除，重新通过SAP HANA节点的浮动IP地址，将SAP HANA节点接入，并配置备份路径。
+9.  在SAP HANA Studio上重新接入SAP HANA。
+10. 在SAP HANA Studio上，将已接入的两个SAP HANA节点删除，重新通过SAP HANA节点的浮动IP地址，将SAP HANA节点接入，并配置备份路径。
 
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >HA功能配置完成后，HAE会管理资源，请不要使用其他方式启动或停止资源。如果需要手动执行一些测试或者修改操作，请先将集群进入维护模式。  

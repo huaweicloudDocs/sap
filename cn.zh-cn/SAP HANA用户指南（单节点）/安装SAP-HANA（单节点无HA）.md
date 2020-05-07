@@ -14,4 +14,6 @@ SAP HANA Studio提供对SAP HANA的管理功能。完成SAP  HANA节点的部署
 配置SAP HANA数据备份的路径，满足备份的要求。此处以使用SAP  HANA 1.0时在Windows上安装的SAP HANA Studio上的操作为例介绍操作。
 -   **[配置SAP HANA存储参数](配置SAP-HANA存储参数.md)**  
 配置SAP HANA存储的参数，满足SAP公司的要求。
+-   **[安装Data Provider软件](安装Data-Provider软件.md)**  
+
 

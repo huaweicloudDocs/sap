@@ -6,11 +6,11 @@
 
 -   已准备好相关的资源，具体请参见资源准备相关章节。
 -   已完成服务器的创建和磁盘格式化，并已完成相关的配置。
--   已完成服务器的时间同步配置。
+-   确保新节点上操作系统的防火墙为关闭，默认防火墙为关闭状态，如若操作系统的防火墙未关闭，具体请参见[修改操作系统配置](修改操作系统配置.md)。
 
 ## 操作步骤<a name="section41814260141837"></a>
 
-1.  <a name="li12681542162311"></a>登录[http://support.sap.com/swdc](http://support.sap.com/swdc)下载安装包，然后执行安装。
+1.  <a name="li12681542162311"></a>登录[https://support.sap.com/swdc](https://support.sap.com/swdc)下载安装包，然后执行安装。
     1.  打开“SAP Software Download Center“。
         -   选择“Software Downloads“
         -   选择“INSTALLATIONS & UPGRADES“

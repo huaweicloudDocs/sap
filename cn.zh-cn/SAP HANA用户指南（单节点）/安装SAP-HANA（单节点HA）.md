@@ -18,6 +18,8 @@ SAP HANA Studio提供对SAP HANA的管理功能。完成SAP  HANA节点的部署
 通过配置脚本，实现SAP HANA节点的HA功能（即HAE功能），提高SAP  HANA节点的可靠性。
 -   **[配置SAP HANA存储参数](配置SAP-HANA存储参数（单节点HA）.md)**  
 配置SAP HANA存储的参数，满足SAP公司的要求。
+-   **[安装Data Provider软件](安装Data-Provider.md)**  
+
 -   **[配置iSCSI（跨AZ部署HA）](配置iSCSI（跨AZ部署HA）.md)**  
 
 

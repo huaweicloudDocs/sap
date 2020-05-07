@@ -307,10 +307,7 @@ BWoH场景是指SAP HANA配合SAP公司的BusinessWarehouse使用的场景。在
 </thead>
 <tbody><tr id="row1672211892121"><td class="cellrowborder" valign="top" width="22.37%" headers="mcps1.2.3.1.1 "><p id="p1231430092121"><a name="p1231430092121"></a><a name="p1231430092121"></a>操作系统</p>
 </td>
-<td class="cellrowborder" valign="top" width="77.63%" headers="mcps1.2.3.1.2 "><p id="p4591460621519"><a name="p4591460621519"></a><a name="p4591460621519"></a>SUSE Linux Enterprise Server (SLES) 12 SP1 for SAP</p>
-<p id="p34214096134732"><a name="p34214096134732"></a><a name="p34214096134732"></a>SUSE Linux Enterprise Server (SLES) 12 SP2 for SAP</p>
-<p id="p6123161319488"><a name="p6123161319488"></a><a name="p6123161319488"></a>SUSE Linux Enterprise Server (SLES) 12 SP3 for SAP</p>
-<p id="p42401217183613"><a name="p42401217183613"></a><a name="p42401217183613"></a>SUSE Linux Enterprise Server (SLES) 15 for SAP</p>
+<td class="cellrowborder" valign="top" width="77.63%" headers="mcps1.2.3.1.2 "><a name="ul415721885919"></a><a name="ul415721885919"></a><ul id="ul415721885919"><li>SUSE Linux Enterprise Server for SAP Applications 12 SP3</li><li>SUSE Linux Enterprise Server for SAP Applications 12 SP4</li><li>SUSE Linux Enterprise Server for SAP Applications 12 SP5</li><li>SUSE Linux Enterprise Server for SAP Applications 15</li><li>SUSE Linux Enterprise Server for SAP Applications 15 SP1</li></ul>
 </td>
 </tr>
 </tbody>

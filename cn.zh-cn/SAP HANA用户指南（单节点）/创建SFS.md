@@ -19,8 +19,8 @@
     -   按需计费方式：如果您选择此种方式，可执行[2](#li1591745141713)创建SFS。
 
     1.  登录管理控制台。
-    2.  在管理控制台左上角单击![](figures/icon-region-0.png)，选择区域和项目。
-    3.  单击“服务列表 \> 存储 \> 弹性文件服务“，进入“弹性文件服务”管理界面。
+    2.  在管理控制台左上角单击![](figures/icon-region-3.png)，选择区域和项目。
+    3.  在左侧导航栏，单击![](figures/002-4.png)，选择“存储 \> 弹性文件服务“，进入“弹性文件服务”管理界面。
     4.  在右侧界面中，单击“购买SFS资源包”，系统弹出创建文件系统的界面。
     5.  在购买页面选择相关配置，具体请参见[表1](#table9978194425210)所示。
 
@@ -39,7 +39,7 @@
         </td>
         <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p1236552305514"><a name="p1236552305514"></a><a name="p1236552305514"></a>不同的地域之间资源包不互通，每个地域需分别购买，请根据您的实际需求选择。</p>
         </td>
-        <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p1597994415210"><a name="p1597994415210"></a><a name="p1597994415210"></a>华东-上海二</p>
+        <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p1597994415210"><a name="p1597994415210"></a><a name="p1597994415210"></a>华北-北京四</p>
         </td>
         </tr>
         <tr id="row79799440523"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p99791444145220"><a name="p99791444145220"></a><a name="p99791444145220"></a>资源包规格</p>
@@ -64,8 +64,8 @@
 
 2.  <a name="li1591745141713"></a>创建SFS。
     1.  登录管理控制台。
-    2.  在管理控制台左上角单击![](figures/icon-region-1.png)，选择区域和项目。
-    3.  单击“服务列表 \> 存储 \> 弹性文件服务“，进入“弹性文件服务”管理界面。
+    2.  在管理控制台左上角单击![](figures/icon-region-5.png)，选择区域和项目。
+    3.  在左侧导航栏，单击![](figures/002-6.png)，选择“存储 \> 弹性文件服务“，进入“弹性文件服务”管理界面。
     4.  在右侧界面中，单击“创建文件系统”，系统弹出创建文件系统的界面。
     5.  输入参数信息，如[表2](#table14401713165211)所示。
 
@@ -91,7 +91,7 @@
         </td>
         <td class="cellrowborder" valign="top" width="51.99%" headers="mcps1.2.4.1.2 "><p id="p1943327101211"><a name="p1943327101211"></a><a name="p1943327101211"></a>请根据实际选择区域.</p>
         </td>
-        <td class="cellrowborder" valign="top" width="28.09%" headers="mcps1.2.4.1.3 "><p id="p13318641171513"><a name="p13318641171513"></a><a name="p13318641171513"></a>华东-上海二</p>
+        <td class="cellrowborder" valign="top" width="28.09%" headers="mcps1.2.4.1.3 "><p id="p15640754191212"><a name="p15640754191212"></a><a name="p15640754191212"></a>华北-北京四</p>
         </td>
         </tr>
         <tr id="row1454331315215"><td class="cellrowborder" valign="top" width="19.919999999999998%" headers="mcps1.2.4.1.1 "><p id="p2543121385217"><a name="p2543121385217"></a><a name="p2543121385217"></a>可用区</p>
@@ -131,6 +131,14 @@
         <td class="cellrowborder" valign="top" width="28.09%" headers="mcps1.2.4.1.3 "><p id="p431884116155"><a name="p431884116155"></a><a name="p431884116155"></a>-</p>
         </td>
         </tr>
+        <tr id="row886615241555"><td class="cellrowborder" valign="top" width="19.919999999999998%" headers="mcps1.2.4.1.1 "><p id="p938211720514"><a name="p938211720514"></a><a name="p938211720514"></a>加密</p>
+        </td>
+        <td class="cellrowborder" valign="top" width="51.99%" headers="mcps1.2.4.1.2 "><p id="p038210717512"><a name="p038210717512"></a><a name="p038210717512"></a>可选参数。</p>
+        <p id="p33828775116"><a name="p33828775116"></a><a name="p33828775116"></a>加密针对文件系统加密。可以新创建加密或者不加密的文件系统，无法更改已有文件系统的加密属性。如果设置文件系统加密，则勾选“加密”，具体配置可参见<a href="https://support.huaweicloud.com/qs-sfs/zh-cn_topic_0034428727.html" target="_blank" rel="noopener noreferrer">《弹性文件服务快速入门》</a>。</p>
+        </td>
+        <td class="cellrowborder" valign="top" width="28.09%" headers="mcps1.2.4.1.3 "><p id="p1876857145016"><a name="p1876857145016"></a><a name="p1876857145016"></a>-</p>
+        </td>
+        </tr>
         <tr id="row7611131016323"><td class="cellrowborder" valign="top" width="19.919999999999998%" headers="mcps1.2.4.1.1 "><p id="p13505121812"><a name="p13505121812"></a><a name="p13505121812"></a>企业项目</p>
         </td>
         <td class="cellrowborder" valign="top" width="51.99%" headers="mcps1.2.4.1.2 "><p id="p150131161818"><a name="p150131161818"></a><a name="p150131161818"></a>请根据实际选择所在项目。</p>
@@ -163,8 +171,8 @@
 ## 创建SFS Turbo<a name="section1078014199295"></a>
 
 1.  登录管理控制台。
-2.  在管理控制台左上角单击![](figures/icon-region-2.png)，选择区域和项目。
-3.  单击“服务列表 \> 存储 \> 弹性文件服务“，进入“弹性文件服务”管理界面。
+2.  在管理控制台左上角单击![](figures/icon-region-7.png)，选择区域和项目。
+3.  在左侧导航栏，单击![](figures/002-8.png)，选择“存储 \> 弹性文件服务“，进入“弹性文件服务”管理界面。
 4.  在右侧界面中，单击“创建文件系统”，系统弹出创建文件系统的界面。
 5.  输入参数信息，如[表3](#table47208541602)所示。
 
@@ -197,7 +205,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="55.379999999999995%" headers="mcps1.2.4.1.2 "><p id="p585917425198"><a name="p585917425198"></a><a name="p585917425198"></a>根据实际选择区域.</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25.2%" headers="mcps1.2.4.1.3 "><p id="p17859842111910"><a name="p17859842111910"></a><a name="p17859842111910"></a>华东-上海二</p>
+    <td class="cellrowborder" valign="top" width="25.2%" headers="mcps1.2.4.1.3 "><p id="p195712212135"><a name="p195712212135"></a><a name="p195712212135"></a>华北-北京四</p>
     </td>
     </tr>
     <tr id="row185941653183819"><td class="cellrowborder" valign="top" width="19.42%" headers="mcps1.2.4.1.1 "><p id="p12721145417012"><a name="p12721145417012"></a><a name="p12721145417012"></a>可用区</p>
@@ -242,22 +250,11 @@
     <td class="cellrowborder" valign="top" width="25.2%" headers="mcps1.2.4.1.3 "><p id="p192820507195"><a name="p192820507195"></a><a name="p192820507195"></a>-</p>
     </td>
     </tr>
-    <tr id="row157575714507"><td class="cellrowborder" valign="top" width="19.42%" headers="mcps1.2.4.1.1 "><p id="p938211720514"><a name="p938211720514"></a><a name="p938211720514"></a>加密</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="55.379999999999995%" headers="mcps1.2.4.1.2 "><p id="p038210717512"><a name="p038210717512"></a><a name="p038210717512"></a>可选参数。只支持使用专业版密钥。</p>
-    <p id="p33828775116"><a name="p33828775116"></a><a name="p33828775116"></a>加密针对文件系统加密。可以新创建加密或者不加密的文件系统，无法更改已有文件系统的加密属性。如果设置文件系统加密，则勾选“KMS加密”，界面会出现以下参数：</p>
-    <a name="ul538214712513"></a><a name="ul538214712513"></a><ul id="ul538214712513"><li>密钥名称<p id="p1238216735118"><a name="p1238216735118"></a><a name="p1238216735118"></a>密钥名称是密钥的标识，您可以通过“密钥名称”选择需要使用的密钥。在下拉列表中选择已有的专业版密钥，或者单击“查看密钥列表”创建新的专业版的密钥，具体请参见《数据加密服务用户指南》的<a href="https://support.huaweicloud.com/usermanual-dew/zh-cn_topic_0034324884.html" target="_blank" rel="noopener noreferrer">“创建密钥”</a>章节。</p>
-    </li><li>密钥ID<p id="p6382187195117"><a name="p6382187195117"></a><a name="p6382187195117"></a>选择密钥名称后系统会自动生成对应的密钥ID。</p>
-    </li></ul>
-    </td>
-    <td class="cellrowborder" valign="top" width="25.2%" headers="mcps1.2.4.1.3 "><p id="p1876857145016"><a name="p1876857145016"></a><a name="p1876857145016"></a>-</p>
-    </td>
-    </tr>
     <tr id="row661215523502"><td class="cellrowborder" valign="top" width="19.42%" headers="mcps1.2.4.1.1 "><p id="p185621516135111"><a name="p185621516135111"></a><a name="p185621516135111"></a>自动备份</p>
     </td>
     <td class="cellrowborder" valign="top" width="55.379999999999995%" headers="mcps1.2.4.1.2 "><p id="p1956212169518"><a name="p1956212169518"></a><a name="p1956212169518"></a>可选参数。</p>
     <p id="p175621162519"><a name="p175621162519"></a><a name="p175621162519"></a>SFS Turbo同时提供自动备份功能，可以通过设置备份策略对文件系统的数据进行备份。启用备份策略后，系统会在指定的时间自动备份文件系统数据。</p>
-    <p id="p185628167518"><a name="p185628167518"></a><a name="p185628167518"></a>勾选<span class="uicontrol" id="uicontrol565493310361"><a name="uicontrol565493310361"></a><a name="uicontrol565493310361"></a>“使用自动备份”</span>。。启用后则需要设置“备份开始时间”和“备份周期”，您可以使用根据业务需求创建备份策略。</p>
+    <p id="p185628167518"><a name="p185628167518"></a><a name="p185628167518"></a>勾选<span class="uicontrol" id="uicontrol565493310361"><a name="uicontrol565493310361"></a><a name="uicontrol565493310361"></a>“使用自动备份”</span>。启用后则需要设置“备份开始时间”和“备份周期”，您可以使用根据业务需求创建备份策略。</p>
     <p id="p1562316145113"><a name="p1562316145113"></a><a name="p1562316145113"></a>具体参数请参见《弹性文件服务快速入门》中创建文件系统中的<a href="https://support.huaweicloud.com/qs-sfs/zh-cn_topic_0034428727.html#zh-cn_topic_0034428727__table13661412163911" target="_blank" rel="noopener noreferrer">表3</a>所示。</p>
     </td>
     <td class="cellrowborder" valign="top" width="25.2%" headers="mcps1.2.4.1.3 "><p id="p1961245218507"><a name="p1961245218507"></a><a name="p1961245218507"></a>-</p>
